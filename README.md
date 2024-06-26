@@ -20,17 +20,9 @@ This Python script allows you to execute a Git command in all subdirectories wit
 1. Navigate to the directory containing the script.
 2. Run the script using Python:
     ```sh
-    python run_git_command_in_subdirs.py
+    python git_recursive.py
     ```
-3. When prompted, type your desired Git command (e.g., `status`, `pull`, `fetch`, etc.).
-
-## Example
-If you want to run `git status` in all subdirectories, you would proceed as follows:
-1. Execute the script:
-    ```sh
-    python run_git_command_in_subdirs.py
-    ```
-2. When prompted, type:
+2. When prompted, type your desired Git command (e.g., `status`, `pull`, `push`, `fetch`, etc.). For this example, I used `status`:
     ```sh
     status
     ```
